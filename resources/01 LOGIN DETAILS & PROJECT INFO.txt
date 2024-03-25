@@ -1,0 +1,30 @@
+How to run project: 
+Berikut adalah langkah-langkah untuk menyiapkan dan menjalankan proyek Readorable setelah gitclone atau di unduh:
+
+1. Ekstrak file proyek setelah selesai diunduh.
+2. Buka folder proyek, periksa file env, dan perbarui kredensial database.
+3. Buat database MySQL dengan nama yang disediakan di dalam file env.
+4. Selanjutnya, buka proyek di Terminal atau Command Prompt.
+5. Install paket node: npm install.
+6. Install dependensi composer: composer install.
+7. Link penyimpanan: php artisan storage:link.
+8. Untuk database, Anda dapat mengimpor file SQL yang diberikan atau memulai yang baru mengikuti baris perintah.
+9. Migrasi tabel: php artisan migrate.
+10. Jalankan seeder: php artisan db:seed.
+11. Kemudian, hasilkan kunci: php artisan key:generate.
+12. Terakhir, jalankan proyek: php artisan serve.
+13. Ini akan memulai aplikasi dan memberi Anda URL.
+14. Terakhir, buka URL di browser favorit Anda; kami sarankan menggunakan Google Chrome.
+15. Semua detail login disediakan di dalam folder proyek [file teks], periksa itu dan masukkan mereka untuk menggunakannya.
+
+Untuk memperbaiki masalah gambar yang tidak muncul:
+1. Dari folder root, jalankan perintah berikut satu per satu:
+
+```
+cd public
+rm storage
+cd ..
+php artisan storage:link
+```
+
+Setelah itu, gambar seharusnya tersedia.

@@ -74,7 +74,7 @@
 					<div class="row">
 						<div class="col-lg-6 col-12">
 							<div class="left">
-								<p>© {{date('Y')}} Powered By ZDaffa RD  -  All Rights Reserved. CodeAstro</p>
+								<p>© {{date('Y')}} Powered By ZDaffa RD  -  All Rights Reserved</p>
 							</div>
 						</div>
 						<div class="col-lg-6 col-12">

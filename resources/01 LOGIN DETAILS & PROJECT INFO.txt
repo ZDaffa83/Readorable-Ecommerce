@@ -1,3 +1,19 @@
+---Admin Login Details---
+
+Email   : admin@mail.com
+Password: codeastro.com
+
+--Customer Login Details---
+Email   : customer@mail.com
+Password: codeastro.com
+
+--Akun customer baru--
+Email : buyer@mail.com
+Pw : 12345678
+
+Github : https://github.com/ZDaffa83/Readorable-Ecommerce.git
+
+
 How to run project: 
 Berikut adalah langkah-langkah untuk menyiapkan dan menjalankan proyek Readorable setelah gitclone atau di unduh:
 
@@ -28,3 +44,8 @@ php artisan storage:link
 ```
 
 Setelah itu, gambar seharusnya tersedia.
+
+
+
+
+
